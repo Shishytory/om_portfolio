@@ -1,0 +1,82 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: rgb(0, 0, 100);
+   color: white;
+}
+
+nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 100px;
+   background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+   display: flex;
+   justify-content: center;
+}
+
+nav ul li {
+   list-style: none;
+   margin: 0 20px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: white;
+   transition: transform 0.3s; }
+
+nav ul li a:hover {
+   color: lavender;
+   font-size: 1.03rem;
+   transform: scale(1.2); /* Zoom effect on hover */
+}
+
+.left {
+   font-size: 1.5rem;
+}
+
+.firstsection {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+font-size: large;}
+
+.firstsection > div {
+   width: 30%;
+}
+
+.leftsection {
+   font-size: 3rem;
+   margin: 30px;
+}
+
+.rightsection img {
+   width: 0%;
+   height: 10%;
+}
+.secondsection h1{
+  margin-left: 25px;
+  max-width: 80vw;
+}
+.secondsection hr{
+   border: 0px;
+background: SkyBlue;
+height: 3px;
+margin: 20px;
+max-width: 85vw;
+
+}
+
+.purple {
+   color: SkyBlue;
+}
+
+.purple1 {
+   color: SkyBlue;
+}

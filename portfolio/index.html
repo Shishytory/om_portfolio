@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio by Om</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">contact me</a></li>
+                </ul>
+            </div>
+        
+        </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+            Hello,My name is <span class="purple">Om Shishodiya</span>
+           <div> and I am a </div>
+           <span id="element" class="purple1"></span>
+
+        </div>
+        
+        <div class="rightsection"></div>
+        <img src="bg.png" width="460" height="345">
+      </section>
+      <section class="secondsection">
+        <hr>
+      <h1>Experience</h1>
+      <p style="color:yellow"><font size="5" face="monotype consiva">	Not much of a past experience. Just started learning web dev after coming to college. My peer group call me hard working and a good teammate.I'm determined to learn and grow more in this field and would like to become an asset for this club.</font></p>	
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var options = {
+        strings: ['Web Developer', 'Coder','Beginner in Photoshop'],
+        typeSpeed: 55,
+        onComplete: function () {
+            // After typing "Video Editor," hide the cursor
+            var cursor = document.querySelector('.typed-cursor');
+            if (cursor) {
+                cursor.style.display = 'none';
+            }
+        },
+    };
+
+    var typed = new Typed('#element', options);
+</script>
+</body>
+</html>
